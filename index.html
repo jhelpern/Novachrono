@@ -4,41 +4,60 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>NovaChrono</title>
-  <style>
-    body {
-      margin: 0;
-      height: 100vh;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      background-color: #0b0e12;
-      color: #f2e9dc;
-      font-family: Georgia, 'Times New Roman', serif;
-      text-align: center;
-    }
-
-    .container {
-      padding: 2rem;
-    }
-
-    h1 {
-      font-size: 3.5rem;
-      letter-spacing: 0.1em;
-      margin: 0 0 1rem 0;
-      color: #c9a24b;
-    }
-
-    p {
-      font-size: 1.25rem;
-      color: #d9cfbf;
-      margin: 0;
-    }
-  </style>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <div class="container">
-    <h1>NovaChrono</h1>
-    <p>Building America&rsquo;s trusted institution for mechanical watch appreciation.</p>
-  </div>
+
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a href="index.html" class="logo">NovaChrono</a>
+      <nav class="site-nav">
+        <a href="index.html" class="active">Home</a>
+        <a href="discover.html">Discover</a>
+        <a href="origins.html">Origins</a>
+        <a href="about.html">About</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="hero">
+      <h1>NovaChrono</h1>
+      <p class="tagline">Building America&rsquo;s trusted institution for mechanical watch appreciation.</p>
+    </div>
+
+    <section class="section-narrow">
+      <h2>We teach people, not watches.</h2>
+      <p>
+        NovaChrono exists to help people discover, understand, and appreciate mechanical
+        watches &mdash; the history behind them, the craft inside them, and the language
+        collectors use to talk about them. No pressure to buy. No pressure to collect.
+        Just a genuine education, taught well.
+      </p>
+    </section>
+
+    <section>
+      <div class="card-grid">
+        <div class="card">
+          <h3>Discover</h3>
+          <p>A two-hour evening introduction to mechanical watches. Welcoming, unhurried, and built for complete beginners.</p>
+          <a href="discover.html" class="btn">Explore Discover</a>
+        </div>
+        <div class="card">
+          <h3>Origins</h3>
+          <p>Our flagship full-day experience. Work hands-on with a real mechanical movement under close instruction.</p>
+          <a href="origins.html" class="btn">Explore Origins</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2026 NovaChrono &middot; Wilton, CT</p>
+      <p class="footer-tagline">Building America&rsquo;s trusted institution for mechanical watch appreciation.</p>
+    </div>
+  </footer>
+
 </body>
 </html>
